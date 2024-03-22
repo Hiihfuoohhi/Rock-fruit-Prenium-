@@ -1,0 +1,29 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "CJ hub free Script", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+
+local Tab = Window:MakeTab({
+	Name = " Free Script ",
+	Icon = "rbxassetid://7733919326",
+	PremiumOnly = false
+})
+
+
+
+Tab:AddToggle({
+	Name = "auto tp shodow diary",
+	Default = false,
+	Callback = function(Value)
+		getgenv().f3 = Value
+		while f3 do task.wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2073.365966796875, 64.83841705322266, 2227.6982421875)
+wait(.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(40.614017486572266, 12.616972923278809, -578.6679077148438)
+wait(.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-391.4407653808594, 10.126728057861328, -158.2749481201172)
+wait(.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-391.4407653808594, 10.126728057861328, -158.2749481201172)
+end
+	end    
+})
