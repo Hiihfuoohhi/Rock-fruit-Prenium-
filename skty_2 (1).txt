@@ -1,0 +1,668 @@
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+wait(1)
+vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
+
+
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "/// VIP HJ hub ///", HidePremium = false, IntroText = "HJ hub", IntroIcon  = "rbxassetid://7733765398", SaveConfig = true, ConfigFolder = "Rock Fruit PM"})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Teleport ",
+	Icon = "rbxassetid://7733919326",
+	PremiumOnly = false
+})
+
+
+
+Tab:AddButton({
+	Name = "AFK ROOM ",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4769.20312, 48349.0273, 3166.20581, 0.707134247, 0, 0.707079291, 0, 1, 0, -0.707079291, 0, 0.707134247)
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Go To Sea2 ",
+	Callback = function()
+  fireclickdetector(game:GetService("Workspace")["NEW WORLD!!"].Part.ClickDetector)
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Go To Rerun Event ",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1835.3966064453125, 18.620250701904297, 1987.169677734375)
+	end
+})
+
+
+
+Tab:AddButton({
+	Name = "จุดขายฮูด1",
+	Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-332.6789855957031, 1847.6461181640625, 649.2996826171875)
+  	end    
+})
+    
+    
+    
+    Tab:AddButton({
+	Name = "จุดขายฮูด2",
+	Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-851.1829833984375, 16.493017196655273, 3021.5390625)
+  	end    
+})
+ 
+ 
+ 
+ Tab:AddButton({
+	Name = "จุดขายฮูด3",
+	Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1365.2127685546875, 7.805282115936279, 2097.62451171875)
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "จุดขายฮูด4",
+	Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1401.8079833984375, 5.711451530456543, -1.641363263130188)
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "จุดขายฮูด5",
+	Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(302.7317199707031, 13.939387321472168, -656.5720825195312)
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "ห้องลับทำนิกะ",
+	Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4810.68359375, 48348.87109375, 3129.932373046875)
+  	end    
+}) 
+
+
+
+Tab:AddButton({
+	Name = "จุดเกิดสมุดเงา 1",
+	Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(15.84182357788086, 13.135037422180176, -569.962646484375)
+  	end    
+}) 
+
+
+
+Tab:AddButton({
+	Name = "จุดเกิดสมุดเงา2",
+	Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-388.61529541015625, 7.914182662963867, -166.60411071777344)
+  	end    
+}) 
+
+
+
+Tab:AddButton({
+	Name = "จุดเกิดสมุดเงา3",
+	Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-728.910400390625, 78.12759399414062, 2502.935302734375)
+  	end    
+}) 
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Script",
+	Icon = "rbxassetid://7733919326",
+	PremiumOnly = false
+})
+
+
+
+Tab:AddToggle({
+	Name = "Fishing 1",
+	Default = false,
+	Callback = function(Value)
+		getgenv().f1 = Value
+		while f1 do task.wait()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.7368584, 16.8814068, 357.618439, -0.855374992, -3.06128882e-08, 0.518009245, -1.58900608e-08, 1, 3.28583454e-08, -0.518009245, 1.98750101e-08, -0.855374992)
+		wait(.1)
+		local args = {
+    [1] = "bind",
+    [2] = Vector3.new(42.433982849121094, 1.149999976158142, 382.159423828125)
+}
+
+game:GetService("Players").LocalPlayer.Character.FishingRod.LocalScript.RemoteFunction:InvokeServer(unpack(args))
+		end
+	end    
+}) 
+
+
+
+Tab:AddToggle({
+	Name = "auto tp shodow diary",
+	Default = false,
+	Callback = function(Value)
+		getgenv().f3 = Value
+		while f3 do task.wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2073.365966796875, 64.83841705322266, 2227.6982421875)
+wait(.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(40.614017486572266, 12.616972923278809, -578.6679077148438)
+wait(.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-391.4407653808594, 10.126728057861328, -158.2749481201172)
+wait(.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-391.4407653808594, 10.126728057861328, -158.2749481201172)
+         end
+	end    
+})
+
+
+
+Tab:AddToggle({
+	Name = "auto out fish",
+	Default = false,
+	Callback = function(Value)
+		getgenv().f9 = Value
+		while f9 do task.wait()
+local args = {
+    [1] = "Change",
+    [2] = "Fish",
+    [3] = "Inv"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+         end
+	end    
+})
+
+
+
+Tab:AddToggle({
+	Name = "0.35%",
+	Default = false,
+	Callback = function(V)
+		
+		_G.toji = V
+  game:GetService("RunService").Stepped:Connect(function()
+ pcall(function()
+ if _G.toji then
+fireclickdetector(workspace:GetChildren()[558].ClickDetector)
+end
+end)
+end)
+		
+	end    
+})
+
+
+
+Tab:AddToggle({
+	Name = "All item",
+	Default = false,
+	Callback = function(Value)
+		    getgenv().abc = Value
+    while abc do task.wait()
+    local args = {
+    [1] = "Change",
+    [2] = "Fish",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Lightning Purple",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Spear of Heaven",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Cursed Bag",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Heart Demon",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Orb Beast",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Staff Magic",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Gokumonkyo",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Behelit",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Orb Dragon",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Candy Pumpkin",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Tail Dinosaur",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Grimoire",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Cake",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Cane",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Camera",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Skateboard",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Blade Kagenou",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Orb Shadow",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Orb Rainbow",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Fire Curse",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Shadow Diary",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Orb Atomic",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+wait(.1)
+local args = {
+    [1] = "Change",
+    [2] = "Orb Heaven",
+    [3] = "Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Inventory"):FireServer(unpack(args))
+
+    end
+	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "get exercise",
+	Callback = function()
+      		fireclickdetector(workspace.IslandStats:GetChildren()[10].ClickDetector)
+wait(0.1)
+fireclickdetector(workspace.IslandStats:GetChildren()[11].ClickDetector)
+wait(0.1)
+fireclickdetector(workspace.IslandStats:GetChildren()[9].ClickDetector)
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Exercise Training",
+	Callback = function()
+      		fireclickdetector(workspace.IslandStats["NPC Exercise "].Part.ClickDetector)
+  	end    
+}) 
+
+
+
+Tab:AddToggle({
+	Name = "auto Suck Item",
+	Default = false,
+	Callback = function(V)
+    _G.Bring_Fruit = V
+
+while _G.Bring_Fruit do wait()
+
+    for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+        if v:IsA("Tool") then
+            v.Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+        end
+    end
+        for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+        if v:IsA("Tool") and v:FindFirstChild("EquipCooldown") then
+            v.Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+            end
+      end
+end       
+	end    
+})
+
+function TP(targetCFrame)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = targetCFrame
+end
+
+function A()
+    game:GetService('VirtualUser'):CaptureController()
+    game:GetService('VirtualUser'):Button1Down(Vector2.new(1280, 672))
+end
+
+
+local Bosses = {
+    "ZombieV1",
+    "ZombieV2",
+    "ZombieV3",
+    "ZombieV4",
+    "ZombieV5",
+    "ZombieV6",
+    "ZombieV7",
+    "ZombieV8",
+    "ZombieV9",
+    "ZombieV10",
+    "ZombieV11",
+    "ZombieV12",
+    "ZombieV13",
+    "ZombieV14",
+    "ZombieV15",
+    "SkeletonV5",
+    "SkeletonV6",
+    "SkeletonV7",
+    "SkeletonV8",
+    "SkeletonV9",
+    "SkeletonV10",
+    "SkeletonV11",
+    "SkeletonV12",
+    "SkeletonV13",
+    "SkeletonV14",
+    "SkeletonV15"
+}
+
+
+
+Tab:AddToggle({
+    Name = "auto ดัน",
+    Default = false,
+    Callback = function(T)
+        _G.p = T
+        if _G.p then
+            game:GetService("RunService").Heartbeat:Connect(function()
+                if _G.p then
+                    for i, v in pairs(game.Workspace:GetDescendants()) do
+                        if v.ClassName == "Model" then
+                            for _, bossName in ipairs(Bosses) do
+                                if v.Name == bossName then
+                                    v.Humanoid.Health = die
+                                end
+                            end
+                        end
+                    end
+                end
+            end)
+        end
+    end
+})
+
+
+local Weaponlist = {}
+local Weapon = nil
+for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
+    table.insert(Weaponlist,v.Name)
+    end
+
+
+Tab:AddDropdown({
+	Name = "Weapon",
+	Default = "1",
+	Options = Weaponlist,
+	Callback = function(V)
+        _G.Weapon = V
+	end    
+})
+
+
+Tab:AddToggle({
+	Name = "AutoEquiped",
+	Default = false,
+	Callback = function(a)
+        _G.AutoEquiped = a
+	end    
+}) 
+
+spawn(function()
+    while wait() do
+    if _G.AutoEquiped then
+    pcall(function()
+    game.Players.LocalPlayer.Character.Humanoid:EquipTool(game:GetService("Players").LocalPlayer.Backpack:FindFirstChild(_G.Weapon))
+    end)
+    end
+    end
+    end)    
+
+Tab:AddToggle({
+	Name = "Z",
+	Default = false,
+	Callback = function(Z)
+        _G.AutoZ = Z
+
+        spawn(function()
+        while wait(.1) do
+            pcall(function()
+        if _G.AutoZ then
+        game:GetService("VirtualInputManager"):SendKeyEvent(true,"Z",false,game)
+                        end
+                end)
+           end
+        end)
+        
+	end    
+}) 
+
+
+Tab:AddToggle({
+	Name = "X",
+	Default = false,
+	Callback = function(X)
+        _G.AutoZ = X
+
+        spawn(function()
+        while wait(.1) do
+            pcall(function()
+        if _G.AutoZ then
+        game:GetService("VirtualInputManager"):SendKeyEvent(true,"X",false,game)
+                        end
+                end)
+           end
+        end)
+        
+	end    
+}) 
+
+
+Tab:AddToggle({
+	Name = "C",
+	Default = false,
+	Callback = function(C)
+        _G.AutoZ = C
+
+        spawn(function()
+        while wait(.1) do
+            pcall(function()
+        if _G.AutoZ then
+        game:GetService("VirtualInputManager"):SendKeyEvent(true,"C",false,game)
+                        end
+                end)
+           end
+        end)
+        
+	end    
+}) 
+
+
+Tab:AddToggle({
+	Name = "V",
+	Default = false,
+	Callback = function(V)
+        _G.AutoV = V
+
+        spawn(function()
+        while wait(.1) do
+            pcall(function()
+        if _G.AutoV then
+        game:GetService("VirtualInputManager"):SendKeyEvent(true,"V",false,game)
+                        end
+                end)
+           end
+        end)
+        
+	end    
+}) 
+
+
+
